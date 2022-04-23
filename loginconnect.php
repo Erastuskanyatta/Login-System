@@ -29,7 +29,7 @@ if(mysqli_num_rows($result)> 0){
     
 }
 else{
-    echo "Invalid username or password";
+    echo "Invalid username or password: Please try again";
 }
 
 ?>
